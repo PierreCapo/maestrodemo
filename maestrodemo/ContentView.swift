@@ -13,7 +13,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button(action: { print("hello")}) {
+                Text("Sign In")
+            }
         }
         .padding()
     }

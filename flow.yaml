@@ -1,0 +1,9 @@
+appId: pierrecapo.maestrodemo
+---
+- launchApp
+
+# Test home screen visibility
+- assertVisible: "Sign In"
+
+# Test gas station screen
+- tapOn: "Sign In"
